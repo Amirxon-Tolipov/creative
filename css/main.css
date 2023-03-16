@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,ul,li,a,p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.header__text__box{
+    margin-top: 10px;
+    margin-left: 566px;
+}
+.header__text{
+    color: grey;
+}
+.menu__list{
+    display: flex;
+    margin-top: 15px;
+    list-style: none;
+}
+.menu__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: bold;
+    color: orange;
+}
+.menu__link:hover{
+    color: black;
+}
+.break__line{
+    width: 1200px;
+    border-radius: 6px;
+}
+.hero__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: orange;
+}
+.hero__title__box{
+    width: 500px;
+}
+.hero__title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 80px;
+    color: white;
+}
+.hero__inner__box{
+    width: 500px;
+    display: flex;
+    padding: 15px 10px;
+    background-color: black;
+}
+.hero__inner__desc{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+.hero__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: bold;
+    color: orange;
+}
+.hero__pic{
+    position: absolute;
+    top: 30%;
+    left: 59.5%;
+}
+.intro__box{
+    display: flex;
+}
+.intro__title{
+    text-transform: uppercase;
+}
+.second__break__line{
+    width: 300px;
+    margin: 5px;
+    padding-top: 4px;
+    border-radius: 6px;
+    color:black;
+    background: black;
+}
+.intro__desc{
+    width: 300px;
+    line-height: 20px;
+    color: grey;
+}
+.intro__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: orange;
+}
+.second__intro__box--main{
+    display: flex;
+}
+.intro__inner{
+    display: flex;
+    margin-left: 100px;;
+}
+.main__intro__box{
+    margin-left: 20px;
+}
+.second__hero__inner{
+    display: flex;
+}
+.second__hero__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
