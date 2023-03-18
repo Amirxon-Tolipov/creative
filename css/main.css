@@ -123,12 +123,47 @@ img{
 .main__intro__box{
     margin-left: 20px;
 }
-.second__hero__inner{
-    display: flex;
-}
 .second__hero__link{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+.second__hero__img{
+    margin: 20px 40px;
+}
+.second__intro__text__box{
+    width: 750px;
+}
+.box__inner{
+     display: flex;
+     justify-content: space-between;
+}
+.second__intro__link{
+    margin: 0 8px;
+}
+.site-footer{
+    padding: 30px 0;
+    background-color: rgb(227, 227, 227);
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+}
+.footer__item{
+    margin: 0 5px;
+}
+.footer__link{
+    text-decoration: none;
+    color: grey;
+}
+.footer__desc{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: grey;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
 }
